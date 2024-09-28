@@ -1,41 +1,102 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    position: relative;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
 }
-#heding1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-#nav.scrolled {
-    background-color: #ffffff;
-  }
-  
-  input[type="range"] {
-    accent-color: rgb(0, 0, 255); /* blue */
-  }
-  .h-90p {
-    height: 90%;
-    margin-top: 10%;
-  }
-  .client-logo-marquee-area{
-    height: 80px;
-    width: 100%;
-    /* background-color: aqua; */
-  }
-.client-logo-wrap{
-    display: flex;
-    align-items: flex-end;
-    height:65%;
-    margin-top: 2%;
-    justify-content: space-between;
-    flex-direction: row;
-    /* background-color: black; */
-}
-.client-logo-wrap img{
-    height: 100%;
-    /* background-color: black; */
-    margin-top: 10%;
-}
-#feedback3{
-    margin-left: 40%;
 
+#heding1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#nav.scrolled {
+  background-color: #ffffff;
+}
+
+input[type="range"] {
+  accent-color: rgb(0, 0, 255); /* blue */
+}
+
+.h-90p {
+  height: 90%;
+  margin-top: 10%;
+}
+
+.client-logo-marquee-area {
+  height: 80px;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.client-logo-wrap {
+  display: flex;
+  align-items: flex-end;
+  height: 65%;
+  margin-top: 2%;
+  justify-content: space-between;
+  flex-direction: row;
+  /* background-color: black; */
+}
+
+.client-logo-wrap img {
+  height: 100%;
+  /* background-color: black; */
+  margin-top: 10%;
+}
+
+#feedback3 {
+  margin-left: 40%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Tablet styles */
+  .h-90p {
+      height: auto;
+      margin-top: 5%;
+  }
+  #logo{
+    margin-left: 2%;
+  }
+  #main-card-container{
+    margin-left: 10%;
+  }
+  .client-logo-wrap {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .client-logo-wrap img {
+      margin-top: 5%;
+  }
+
+  #feedback3 {
+      margin-left: 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile styles */
+  .h-90p {
+      height: auto;
+      margin-top: 5%;
+  }
+  #logo{
+    margin-left: 2%;
+  }
+
+  .client-logo-wrap {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .client-logo-wrap img {
+      margin-top: 5%;
+  }
+
+  #feedback3 {
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+}
+#feedback1 #feedback2 {
+  margin-left:10%;
 }
