@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   position: relative;
+  background-color:#f7f9ff;
 }
 
 #heding1 {
@@ -9,6 +10,12 @@ body {
 
 #nav.scrolled {
   background-color: #ffffff;
+}
+#top-navbar{
+  background-color:#060d37;
+}
+.bg-green-500{
+  background-color: #0cbf5f;
 }
 
 input[type="range"] {
