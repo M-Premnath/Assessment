@@ -12,9 +12,39 @@ body {
 }
 
 input[type="range"] {
-  accent-color: rgb(0, 0, 255); /* blue */
+  width: 100%;
+  height: 8px;
+  -webkit-appearance: none;
+  background-color: #f7f9ff;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #c3d5e0;
 }
 
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 8px;
+  height: 24px;
+  border-radius: 6px;
+  background: #1a57e6;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 8px;
+  height: 24px;
+  border-radius: 6px;
+  background: #1a57e6;
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-thumb {
+  width: 8px;
+  height: 24px;
+  border-radius: 6px;
+  background: #1a57e6;
+  cursor: pointer;
+}
 .h-90p {
   height: 90%;
   margin-top: 10%;
